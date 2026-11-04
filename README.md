@@ -131,16 +131,19 @@ I enjoy turning complex information into practical, measurable solutions — com
 
 </div>
 
-## GitHub overview
+## GitHub Overview
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=alextaf2017&show_icons=true&hide_border=true&rank_icon=github&theme=github_dark&bg_color=0D1117&title_color=58A6FF&icon_color=3FBDA5&text_color=C9D1D9" alt="GitHub profile statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alextaf2017&layout=compact&hide_border=true&theme=github_dark&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Most used programming languages" />
-</div>
+### GitHub Profile Statistics
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alextaf2017&bg_color=0D1117&color=C9D1D9&line=1F6FEB&point=3FBDA5&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph" />
-</div>
+![GitHub Statistics](./github-stats.svg)
+
+### Most Used Programming Languages
+
+![Most Used Languages](./github-languages.svg)
+
+### GitHub Contribution Activity
+
+![Contribution Activity](./github-contributions.svg)
 
 ## Current focus
 
