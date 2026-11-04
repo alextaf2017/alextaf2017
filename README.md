@@ -131,13 +131,11 @@ I enjoy turning complex information into practical, measurable solutions — com
 
 </div>
 
-## GitHub Overview
+## 📊 GitHub Overview
 
 ### GitHub Profile Statistics
 
 ![GitHub Statistics](./github-stats.svg)
-
-### Most Used Programming Languages
 
 ### 🧰 Technologies & Tools
 
@@ -172,10 +170,9 @@ I enjoy turning complex information into practical, measurable solutions — com
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
-### GitHub Contribution Activity
+### Contribution Activity
 
 ![Contribution Activity](./github-contributions.svg)
-
 ## Current focus
 
 - Strengthening the data foundation of the insurance risk platform.
