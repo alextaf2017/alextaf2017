@@ -1,16 +1,162 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**alextaf2017/alextaf2017** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<a href="https://github.com/alextaf2017">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=210&color=0:0D1117,45:14243A,100:1F6FEB&text=ALESSIO%20TAFUNI&fontColor=F0F6FC&fontSize=48&fontAlignY=40&desc=DATA%20SCIENCE%20%20%E2%80%A2%20%20ARTIFICIAL%20INTELLIGENCE%20%20%E2%80%A2%20%20ACTUARIAL%20SCIENCE&descAlignY=62&descSize=13" width="100%" alt="Alessio Tafuni — Data Science, Artificial Intelligence and Actuarial Science" />
+</a>
 
-Here are some ideas to get you started:
+<br/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<a href="https://github.com/alextaf2017"><img src="https://img.shields.io/badge/GitHub-alextaf2017-161B22?style=for-the-badge&logo=github&logoColor=F0F6FC" alt="GitHub profile" /></a>
+<a href="https://www.linkedin.com/in/alessio-tafuni-9544a4264/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
+
+<br/><br/>
+
+**Building intelligent systems. Measuring risk. Turning data into decisions.**
+
+</div>
+
+---
+
+## About
+
+I work at the intersection of **data science, artificial intelligence, and actuarial risk analysis**.
+
+I enjoy turning complex information into practical, measurable solutions — combining data engineering, statistical thinking, and AI. My current portfolio focuses on two complementary areas: document intelligence for insurance and data foundations for insurance risk analytics.
+
+## Selected projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>01 · RAG Assistant for Motor Insurance</h3>
+      <a href="https://github.com/alextaf2017/rag-assicurazioni">
+        <img src="https://img.shields.io/badge/VIEW_PROJECT-1F6FEB?style=for-the-badge&logo=github&logoColor=white" alt="View RAG Assistant project" />
+      </a>
+      <p>A Retrieval-Augmented Generation assistant for Italian motor insurance documentation.</p>
+      <ul>
+        <li>Hybrid retrieval: dense embeddings, BM25 and Reciprocal Rank Fusion</li>
+        <li>Local LLM inference with Llama 3.1 8B and Ollama</li>
+        <li>Answers grounded in source documents and page references</li>
+        <li>FastAPI service and Docker</li>
+      </ul>
+      <p><strong>Evaluation snapshot:</strong> 0.82 hit@5 across 38 manually annotated questions. This is a preliminary result on a small evaluation set, not a general performance guarantee.</p>
+      <p>
+        <img src="https://img.shields.io/badge/RAG-161B22?style=flat-square" alt="RAG" />
+        <img src="https://img.shields.io/badge/Hybrid_Search-161B22?style=flat-square" alt="Hybrid search" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>02 · Insurance Claims Risk Platform</h3>
+      <a href="https://github.com/alextaf2017/insurance-risk-platform">
+        <img src="https://img.shields.io/badge/VIEW_PROJECT-1F6FEB?style=for-the-badge&logo=github&logoColor=white" alt="View Insurance Risk Platform project" />
+      </a>
+      <p>An insurance data engineering and risk analytics project built around the freMTPL2 dataset.</p>
+      <ul>
+        <li>Apache Spark and Apache Iceberg</li>
+        <li>Bronze / Silver / Gold data lake architecture</li>
+        <li>Data quality checks and data contracts</li>
+        <li>Deterministic train/test split</li>
+      </ul>
+      <p><strong>Current status:</strong> Milestone 1 completed. Statistical analysis, actuarial models, machine learning and deployment are planned future milestones.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" alt="Apache Spark" />
+        <img src="https://img.shields.io/badge/Apache_Iceberg-161B22?style=flat-square&logo=apache&logoColor=white" alt="Apache Iceberg" />
+        <img src="https://img.shields.io/badge/Data_Quality-161B22?style=flat-square" alt="Data quality" />
+        <img src="https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+## Architecture at a glance
+
+<details open>
+  <summary><strong>RAG · Insurance document intelligence</strong></summary>
+
+  ```mermaid
+  flowchart LR
+      A[Insurance PDFs] --> B[Text extraction & cleaning]
+      B --> C[Chunking]
+      C --> D[Embeddings]
+      C --> E[BM25 index]
+      D --> F[Hybrid retrieval]
+      E --> F
+      F --> G[Reciprocal Rank Fusion]
+      G --> H[Local LLM · Llama 3.1 8B]
+      H --> I[Answer with source references]
+  ```
+  <p><sub>Conceptual view of the implemented retrieval and answer-generation workflow.</sub></p>
+</details>
+
+<details open>
+  <summary><strong>Insurance risk platform · Data lake foundation</strong></summary>
+
+  ```mermaid
+  flowchart LR
+      A[freMTPL2 dataset] --> B[Raw data]
+      B --> C[Bronze]
+      C --> D[Silver]
+      D --> E[Gold]
+      E --> F[Deterministic train/test split]
+
+      subgraph Platform
+        G[Apache Spark]
+        H[Apache Iceberg]
+        I[S3-compatible storage]
+        J[PostgreSQL JDBC catalog]
+      end
+
+      C -.-> G
+      D -.-> H
+      E -.-> I
+      H -.-> J
+  ```
+  <p><sub>Milestone 1 data foundation. Modeling and downstream analytics remain on the roadmap.</sub></p>
+</details>
+
+## Technologies
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+<img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Apache Spark" />
+<img src="https://img.shields.io/badge/Apache_Iceberg-161B22?style=for-the-badge&logo=apache&logoColor=white" alt="Apache Iceberg" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Ollama-161B22?style=for-the-badge&logoColor=white" alt="Ollama" />
+<img src="https://img.shields.io/badge/ChromaDB-161B22?style=for-the-badge&logoColor=white" alt="ChromaDB" />
+
+</div>
+
+## GitHub overview
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=alextaf2017&show_icons=true&hide_border=true&rank_icon=github&theme=github_dark&bg_color=0D1117&title_color=58A6FF&icon_color=3FBDA5&text_color=C9D1D9" alt="GitHub profile statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alextaf2017&layout=compact&hide_border=true&theme=github_dark&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Most used programming languages" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alextaf2017&bg_color=0D1117&color=C9D1D9&line=1F6FEB&point=3FBDA5&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph" />
+</div>
+
+## Current focus
+
+- Strengthening the data foundation of the insurance risk platform.
+- Exploring statistical and actuarial approaches to insurance claims.
+- Building reliable retrieval and evaluation workflows for insurance-document AI.
+
+## Connect
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/alessio-tafuni-9544a4264/"><img src="https://img.shields.io/badge/LinkedIn-Let's%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+<a href="https://github.com/alextaf2017"><img src="https://img.shields.io/badge/GitHub-Follow-161B22?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub" /></a>
+
+<br/><br/>
+
+<sub>Data · Engineering · Intelligence</sub>
+
+</div>
