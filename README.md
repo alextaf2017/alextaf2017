@@ -19,9 +19,9 @@
 
 ## About
 
-I work at the intersection of **data science, artificial intelligence, and actuarial risk analysis**.
+Holder of a Master's degree in Statistics (LM-83) with honours, I work at the intersection of statistics, machine learning, and generative AI.**.
 
-I enjoy turning complex information into practical, measurable solutions — combining data engineering, statistical thinking, and AI. My current portfolio focuses on two complementary areas: document intelligence for insurance and data foundations for insurance risk analytics.
+Today, my focus is on LLM and RAG-based solutions. I am keen on applying analysis, modeling, and forecasting to actuarial, financial, and scientific problems using an evidence-based approach: measuring, comparing, and honestly addressing where a model falls short. 
 
 ## Selected projects
 
