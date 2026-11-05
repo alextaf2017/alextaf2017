@@ -63,6 +63,45 @@ Outside the world of data, I enjoy **weightlifting, history, geography and trave
 
 ## Featured Projects
 
+### 01 — Master's Thesis: Machine Learning Techniques for the Analysis of Qualitative Data
+
+**A quantitative study on young people's perceptions, adoption and evaluation of Artificial Intelligence.**
+
+This Master's Thesis investigates how secondary school students perceive, use and evaluate AI technologies in educational and everyday contexts. The research combines statistical modelling, machine learning and probabilistic methods to identify the factors associated with positive attitudes toward AI and perceptions of autonomy and dependency.
+
+**Dataset**
+- 1,804 secondary school students from the provinces of Bari and Taranto.
+- 64 variables across 9 thematic sections.
+- Data collected within the Italian Scientific Degrees Project (PLS).
+
+**Methodological framework**
+- Descriptive and inferential statistical analysis.
+- Exploratory Factor Analysis (EFA).
+- Structural Equation Modelling (SEM) and path analysis.
+- Machine Learning: Logistic Regression, Random Forest, Gradient Boosting, XGBoost and Multi-Layer Perceptron.
+- Bayesian Networks for probabilistic analysis.
+- Text Mining of open-ended responses.
+
+**Selected results**
+- MLP achieved 70.3% accuracy and 75.9% ROC-AUC.
+- Logistic Regression provided a competitive and more interpretable alternative.
+- Perceived practical and transformative benefits were important drivers of positive attitudes toward AI.
+- Bayesian Network scenarios showed positive-attitude probabilities ranging from 19.6% to 64.6%, depending on perceived benefits and risks.
+
+**Technologies:** `Python` · `Pandas` · `NumPy` · `Scikit-learn` · `Machine Learning` · `SEM` · `Bayesian Networks` · `Text Mining`
+
+<p>
+  <a href="https://github.com/alextaf2017/msc-thesis-machine-learning-qualitative-data">
+    <img src="https://img.shields.io/badge/View_Thesis-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+**MSc in Statistics and Methods for Economics and Finance — University of Bari Aldo Moro**
+
+**Final Grade: 110/110 cum laude**
+
+
+
 ### 01 — Insurance RAG Assistant
 
 **A Retrieval-Augmented Generation system for Italian motor insurance documentation.**
