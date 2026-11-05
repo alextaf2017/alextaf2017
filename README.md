@@ -132,7 +132,7 @@ An AI-powered assistant designed to retrieve information from insurance policy d
 
 ---
 
-### 02 — Insurance Risk Analytics Platform
+### 03 — Insurance Risk Analytics Platform
 
 **A data engineering foundation for insurance portfolio analysis.**
 
