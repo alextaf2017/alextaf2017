@@ -102,7 +102,7 @@ This Master's Thesis investigates how secondary school students perceive, use an
 
 
 
-### 01 — Insurance RAG Assistant
+### 02 — Insurance RAG Assistant
 
 **A Retrieval-Augmented Generation system for Italian motor insurance documentation.**
 
