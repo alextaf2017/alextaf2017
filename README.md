@@ -19,7 +19,7 @@
 
 ## About
 
-Holder of a Master's degree in Statistics (LM-83) with honours, I work at the intersection of statistics, machine learning, and generative AI.**.
+Hi, I'm Alessio Tafuni, I have a Master's degree in Statistics (LM-83) with honours and I work at the intersection of statistics, machine learning, and generative AI.
 
 Today, my focus is on LLM and RAG-based solutions. I am keen on applying analysis, modeling, and forecasting to actuarial, financial, and scientific problems using an evidence-based approach: measuring, comparing, and honestly addressing where a model falls short. 
 
