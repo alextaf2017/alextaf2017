@@ -171,6 +171,26 @@
 
 <br />
 
+## 🗂️ More Projects
+
+<!-- To add a new project: copy one <tr>...</tr> block below and edit title, text and link. -->
+<table>
+  <tr>
+    <td width="100%" valign="top">
+      <h3>🔥 Copernicus Earth Observation Data for Wildfire Risk Assessment</h3>
+      <p><i>Published research · Metodi e Analisi Statistiche (MAS) 2024</i></p>
+      <p>Analysis of the spatial distribution and environmental impact of wildfires in Italy during the 2023 summer season, using Earth Observation data from the EU Copernicus Programme (CEMS, EFFIS and Climate Data Store). Co-authored with Crescenza Calculli and Alessio Pollice.</p>
+      <p><b>Methods:</b> Fire Danger Rating, Fire Radiative Power and burnt-area analysis on vector and raster geospatial data in R (<code>sf</code>, <code>raster</code>, <code>dplyr</code>, <code>ggplot2</code>), plus K-Means clustering to detect high-intensity fires.</p>
+      <p><b>Main findings:</b> the highest wildfire risk was concentrated in Southern Italy and the major islands in July and August 2023; Sicily and Calabria were the most affected regions; the largest fire exceeded 3,100 burned hectares.</p>
+      <p><sub>The repository contains the published paper and presentation material. Source code is not publicly available.</sub></p>
+      <p>
+        <a href="https://github.com/alextaf2017/copernicus-cems-wildfire-analysis"><img src="https://img.shields.io/badge/View_Repository-2563EB?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1220" alt="View Copernicus wildfire repository" /></a>
+        <a href="https://github.com/alextaf2017?tab=repositories"><img src="https://img.shields.io/badge/See_all_repositories-4F46E5?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1220" alt="See all repositories" /></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
 ## 📊 GitHub Statistics
 
 <p align="center">
@@ -221,3 +241,4 @@
   <a href="https://github.com/alextaf2017"><img src="https://img.shields.io/badge/GitHub-alextaf2017-4F46E5?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1220" alt="GitHub" /></a>
   <img src="https://img.shields.io/badge/Location-Bari,_Italy-1E293B?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0B1220" alt="Bari, Italy" />
 </p>
+
