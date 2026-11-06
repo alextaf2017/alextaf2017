@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="assets/hero-banner.png" alt="Alessio Tafuni — Data Science, Statistical Modelling, Risk Analytics" width="100%" />
+  <img src="assets/hero-banner.png" alt="Alessio Tafuni — Data Science, AI, Risk Analytics" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://alextaf2017.github.io"><img src="https://img.shields.io/badge/%E2%86%92_Open_the_full_portfolio-alextaf2017.github.io-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0B1220" alt="Open the full portfolio at alextaf2017.github.io" /></a>
 </p>
 
 <p align="center">
