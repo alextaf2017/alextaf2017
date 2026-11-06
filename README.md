@@ -1,219 +1,219 @@
- 
-# Alessio Tafuni
-
 <p align="center">
-  <img src="assets/hero-banner.png" alt="Alessio Tafuni — Data, Statistics & Risk Analytics" width="100%" />
+  <img src="assets/hero-banner.png" alt="Alessio Tafuni — Data Science, Statistical Modelling, Risk Analytics" width="100%" />
 </p>
 
 <p align="center">
-  <strong>Data Science · Statistical Analysis · Actuarial & Financial Statistics</strong>
+  <a href="https://www.linkedin.com/in/alessio-tafuni-9544a4264/"><img src="https://img.shields.io/badge/LinkedIn-Alessio_Tafuni-2563EB?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B1220" alt="LinkedIn" /></a>
+  <a href="https://github.com/alextaf2017"><img src="https://img.shields.io/badge/GitHub-alextaf2017-4F46E5?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1220" alt="GitHub" /></a>
+  <img src="https://img.shields.io/badge/Bari-Italy-1E293B?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0B1220" alt="Bari, Italy" />
 </p>
 
+<br />
+
+<!-- ========== INTRO: About Me | Tech Stack ========== -->
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h2>👤 About Me</h2>
+      <p>Hi! I'm <b>Alessio Tafuni</b>, a statistician based in Bari, Italy, with a background in <b>Statistical Sciences</b> and a Master's degree in <b>Statistics and Methods for Economics and Finance (LM-83)</b>.</p>
+      <p>I enjoy turning complex datasets into structured, interpretable insights, and I like building practical solutions that combine statistical reasoning with modern data technologies.</p>
+      <p>
+        🎓 <b>MSc</b> — University of Bari Aldo Moro, <b>110/110 cum laude</b><br />
+        🎓 <b>BSc</b> in Statistical Sciences — <b>104/110</b>
+      </p>
+      <p><b>Interests</b><br />
+        Data Science · Statistical Modelling · Machine Learning · Insurance &amp; Financial Risk Analytics · Data Engineering · Artificial Intelligence
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h2>🧰 Tech Stack</h2>
+      <p><sub>Technologies and methods used or explored in my projects.</sub></p>
+      <p><b>Languages</b><br />
+        <img src="https://img.shields.io/badge/Python-2563EB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/R-4F46E5?style=flat-square&logo=r&logoColor=white" alt="R" />
+        <img src="https://img.shields.io/badge/SQL-1E40AF?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+      </p>
+      <p><b>Data &amp; ML libraries</b><br />
+        <img src="https://img.shields.io/badge/Pandas-2563EB?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
+        <img src="https://img.shields.io/badge/NumPy-4F46E5?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+        <img src="https://img.shields.io/badge/Scikit--learn-1E40AF?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-learn" />
+      </p>
+      <p><b>Data engineering</b><br />
+        <img src="https://img.shields.io/badge/Apache_Spark-2563EB?style=flat-square&logo=apachespark&logoColor=white" alt="Apache Spark" />
+        <img src="https://img.shields.io/badge/Apache_Iceberg-4F46E5?style=flat-square&logo=apache&logoColor=white" alt="Apache Iceberg" />
+      </p>
+      <p><b>Tools</b><br />
+        <img src="https://img.shields.io/badge/FastAPI-2563EB?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/Docker-4F46E5?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+        <img src="https://img.shields.io/badge/Git-1E40AF?style=flat-square&logo=git&logoColor=white" alt="Git" />
+        <img src="https://img.shields.io/badge/Linux-2563EB?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
+        <img src="https://img.shields.io/badge/Jupyter-4F46E5?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
+      </p>
+      <p><b>Methods</b><br />
+        <img src="https://img.shields.io/badge/Machine_Learning-1E293B?style=flat-square" alt="Machine Learning" />
+        <img src="https://img.shields.io/badge/Statistical_Modelling-1E293B?style=flat-square" alt="Statistical Modelling" />
+        <img src="https://img.shields.io/badge/Bayesian_Networks-1E293B?style=flat-square" alt="Bayesian Networks" />
+        <img src="https://img.shields.io/badge/NLP_/_RAG-1E293B?style=flat-square" alt="NLP / RAG" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+## 🚀 Featured Projects
+
+<table>
+  <tr>
+    <!-- PROJECT 1 -->
+    <td width="33%" valign="top">
+      <h3>1 · Master's Thesis</h3>
+      <p><i>Machine Learning Techniques for the Analysis of Qualitative Data: A Case Study</i></p>
+      <p>A quantitative study investigating how secondary school students perceive, use and evaluate AI technologies in educational and everyday contexts.</p>
+      <p><b>Dataset</b></p>
+      <ul>
+        <li>1,804 secondary school students</li>
+        <li>64 variables, 9 thematic sections</li>
+        <li>Provinces of Bari and Taranto</li>
+        <li>Collected within the Italian Scientific Degrees Project (PLS)</li>
+      </ul>
+      <p><b>Methodology</b></p>
+      <ul>
+        <li>Descriptive and inferential statistics</li>
+        <li>Exploratory Factor Analysis (EFA)</li>
+        <li>SEM and path analysis</li>
+        <li>Logistic Regression, Random Forest, GBM, XGBoost, MLP</li>
+        <li>Bayesian Networks and Text Mining</li>
+      </ul>
+      <p><b>Selected results</b></p>
+      <ul>
+        <li>MLP: 70.3% accuracy, 75.9% ROC-AUC</li>
+        <li>Logistic Regression: a competitive and more interpretable alternative</li>
+        <li>Perceived practical and transformative benefits were important drivers of positive attitudes toward AI</li>
+        <li>Bayesian Network scenarios: positive-attitude probabilities from 19.6% to 64.6%, depending on perceived benefits and risks</li>
+      </ul>
+      <p>🎓 MSc in Statistics and Methods for Economics and Finance, University of Bari Aldo Moro — <b>110/110 cum laude</b></p>
+      <p><sub>Source code and datasets are not publicly available; the repository is a project showcase.</sub></p>
+      <p align="center">
+        <a href="https://github.com/alextaf2017/msc-thesis-machine-learning-qualitative-data"><img src="https://img.shields.io/badge/View_Repository-2563EB?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1220" alt="View thesis repository" /></a>
+      </p>
+    </td>
+    <!-- PROJECT 2 -->
+    <td width="33%" valign="top">
+      <h3>2 · Insurance RAG Assistant</h3>
+      <p><i>Retrieval-Augmented Generation for Italian motor insurance documentation</i></p>
+      <p>A RAG assistant that answers questions on Italian motor insurance documents, combining semantic and lexical retrieval.</p>
+      <p><b>Technical details</b></p>
+      <ul>
+        <li>PDF ingestion and cleaning</li>
+        <li>800-character chunks, 150-character overlap</li>
+        <li><code>multilingual-e5-base</code> embeddings + ChromaDB</li>
+        <li>Hybrid dense retrieval and BM25, merged with Reciprocal Rank Fusion</li>
+        <li>Llama 3.1 8B running locally via Ollama</li>
+        <li>FastAPI and Docker</li>
+      </ul>
+      <p><b>Knowledge base</b></p>
+      <ul>
+        <li>4 insurance policy booklets, the Italian Insurance Code and 2 IVASS/ISVAP regulations</li>
+        <li>853 pages, 4,874 chunks</li>
+      </ul>
+      <p><b>Evaluation</b></p>
+      <ul>
+        <li>38 manually annotated questions</li>
+        <li>Hybrid retrieval with document-name signal: Hit@5 = 0.82, MRR = 0.53</li>
+      </ul>
+      <p><b>Limitations</b></p>
+      <ul>
+        <li>Preliminary evaluation on a small annotated set</li>
+        <li>Answers can still be wrong despite citations</li>
+        <li>Local CPU inference takes roughly 35–140 seconds</li>
+        <li>Not deployed to the cloud</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/alextaf2017/rag-assicurazioni"><img src="https://img.shields.io/badge/View_Repository-4F46E5?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1220" alt="View RAG repository" /></a>
+      </p>
+    </td>
+    <!-- PROJECT 3 -->
+    <td width="33%" valign="top">
+      <h3>3 · Insurance Risk Analytics Platform</h3>
+      <p><i>Insurance data engineering and risk analytics</i></p>
+      <p>A data platform for insurance policy and claims data, built as the foundation for future risk analytics.</p>
+      <p><b>First milestone — completed</b></p>
+      <ul>
+        <li>Apache Spark and Apache Iceberg</li>
+        <li>Bronze / Silver / Gold architecture</li>
+        <li>Data quality checks and data contracts</li>
+        <li>S3-compatible storage</li>
+        <li>Deterministic train/test split</li>
+      </ul>
+      <p><b>Dataset</b></p>
+      <ul>
+        <li>678,013 policies</li>
+        <li>26,639 claims</li>
+      </ul>
+      <p><b>Roadmap — not yet implemented</b></p>
+      <ul>
+        <li>Exploratory data analysis</li>
+        <li>Predictive modelling, GLM, frequency/severity modelling</li>
+        <li>NLP and Responsible AI</li>
+        <li>Deployment and monitoring</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/alextaf2017/insurance-risk-platform"><img src="https://img.shields.io/badge/View_Repository-1E40AF?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1220" alt="View insurance platform repository" /></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+## 📊 GitHub Statistics
+
 <p align="center">
-  <a href="https://www.linkedin.com/in/alessio-tafuni-9544a4264/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
   <a href="https://github.com/alextaf2017">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
-
----
-
-## About Me
-
-Hi! I'm **Alessio Tafuni**, a statistics master graduate with honours(LM 83) with a background in **Statistical Sciences** and **Actuarial and Financial Statistics**.
-
-I'm interested in the intersection of data science, statistical modelling, financial and insurance risk, and data engineering.
-
-I enjoy turning complex datasets into structured, interpretable insights and building practical solutions that combine statistical reasoning with modern data technologies.
-
-- 🎓 Background in Statistics and Actuarial & Financial Statistics
-- 📊 Interested in Data Science, Risk Analytics and Statistical Modelling
-- 🛠️ Exploring data engineering and AI-powered applications
-- 🌍 Based in Bari, Italy
-
-Outside the world of data, I enjoy **weightlifting, history, geography and travelling**. I'm always curious about new places, cultures and perspectives.
-
----
-
-## Tech Stack & Tools
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,r,sql,git,github,docker,fastapi,linux&theme=dark" />
-</p>
-
-**Data Science & Analytics**
-
-`Python` · `R` · `SQL` · `Pandas` · `NumPy` · `Scikit-learn` · `Statistical Analysis`
-
-**Data Engineering**
-
-`Apache Spark` · `Apache Iceberg` · `Docker` · `REST APIs` · `Data Quality`
-
-**AI & Information Retrieval**
-
-`LLMs` · `RAG` · `Ollama` · `ChromaDB` · `BM25` · `Vector Search`
-
-**Tools & Workflow**
-
-`Git` · `GitHub` · `FastAPI` · `Jupyter Notebook` · `Linux`
-
----
-
-## Featured Projects
-
-### 01 — Master's Thesis: Machine Learning Techniques for the Analysis of Qualitative Data
-
-**A quantitative study on young people's perceptions, adoption and evaluation of Artificial Intelligence.**
-
-This Master's Thesis investigates how secondary school students perceive, use and evaluate AI technologies in educational and everyday contexts. The research combines statistical modelling, machine learning and probabilistic methods to identify the factors associated with positive attitudes toward AI and perceptions of autonomy and dependency.
-
-**Dataset**
-- 1,804 secondary school students from the provinces of Bari and Taranto.
-- 64 variables across 9 thematic sections.
-- Data collected within the Italian Scientific Degrees Project (PLS).
-
-**Methodological framework**
-- Descriptive and inferential statistical analysis.
-- Exploratory Factor Analysis (EFA).
-- Structural Equation Modelling (SEM) and path analysis.
-- Machine Learning: Logistic Regression, Random Forest, Gradient Boosting, XGBoost and Multi-Layer Perceptron.
-- Bayesian Networks for probabilistic analysis.
-- Text Mining of open-ended responses.
-
-**Selected results**
-- MLP achieved 70.3% accuracy and 75.9% ROC-AUC.
-- Logistic Regression provided a competitive and more interpretable alternative.
-- Perceived practical and transformative benefits were important drivers of positive attitudes toward AI.
-- Bayesian Network scenarios showed positive-attitude probabilities ranging from 19.6% to 64.6%, depending on perceived benefits and risks.
-
-**Technologies:** `Python` · `Pandas` · `NumPy` · `Scikit-learn` · `Machine Learning` · `SEM` · `Bayesian Networks` · `Text Mining`
-
-<p>
-  <a href="https://github.com/alextaf2017/msc-thesis-machine-learning-qualitative-data">
-    <img src="https://img.shields.io/badge/View_Thesis-181717?style=for-the-badge&logo=github" />
-  </a>
-</p>
-
-**MSc in Statistics and Methods for Economics and Finance — University of Bari Aldo Moro**
-
-**Final Grade: 110/110 cum laude**
-
-
-
-### 02 — Insurance RAG Assistant
-
-**A Retrieval-Augmented Generation system for Italian motor insurance documentation.**
-
-An AI-powered assistant designed to retrieve information from insurance policy documents and regulatory sources, combining semantic and lexical search.
-
-**Key features**
-- PDF ingestion, text extraction and document preprocessing.
-- Chunking strategy with 800-character chunks and 150-character overlap.
-- Multilingual embeddings using `multilingual-e5-base`.
-- Vector storage with ChromaDB.
-- Hybrid retrieval combining dense search and BM25.
-- Reciprocal Rank Fusion (RRF) for result aggregation.
-- Local LLM inference using Llama 3.1 8B through Ollama.
-- FastAPI backend and Docker-based environment.
-
-**Evaluation snapshot**
-- 4 insurance policy booklets, the Italian Insurance Code and 2 regulatory documents.
-- 853 pages processed and 4,874 chunks indexed.
-- Evaluation on 38 manually annotated questions.
-- Hybrid retrieval with document-name information achieved Hit@5 of 0.82 and MRR of 0.53.
-
-<p>
-  <a href="https://github.com/alextaf2017/rag-assicurazioni">
-    <img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github" />
-  </a>
-</p>
-
----
-
-### 03 — Insurance Risk Analytics Platform
-
-**A data engineering foundation for insurance portfolio analysis.**
-
-A project focused on building a structured data platform for insurance policy and claims data, with an architecture designed to support future risk analytics and modelling workflows.
-
-**Implemented foundation**
-- Bronze / Silver / Gold data architecture.
-- Data processing with Apache Spark.
-- Apache Iceberg table format.
-- Data quality checks and data contracts.
-- S3-compatible storage integration.
-- Deterministic train/test split preparation.
-
-**Dataset**
-- 678,013 insurance policies.
-- 26,639 claims.
-
-**Planned next steps**
-- Exploratory data analysis.
-- Claims frequency and severity analysis.
-- GLM and machine learning modelling.
-- Risk segmentation and portfolio insights.
-- NLP and Responsible AI extensions.
-- Deployment and monitoring.
-
-<p>
-  <a href="https://github.com/alextaf2017/insurance-risk-platform">
-    <img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github" />
-  </a>
-</p>
-
----
-
-## GitHub Overview
-
-<p align="center">
-  <img src="github-stats.svg" alt="GitHub statistics" width="100%" />
-</p>
-
-<p align="center">
-  <img src="github-contributions.svg" alt="GitHub contributions" width="100%" />
-</p>
-
----
-
-## Areas of Interest
-
-| Field | Topics |
-|---|---|
-| Data Science | Exploratory Data Analysis, Predictive Modelling |
-| Statistics | Statistical Inference, Regression, Applied Statistics |
-| Actuarial Science | Insurance Risk, Claims Analysis, Risk Modelling |
-| Data Engineering | Data Pipelines, Lakehouse Architecture, Data Quality |
-| Artificial Intelligence | RAG Systems, LLMs, Information Retrieval |
-
----
-
-## Beyond Data
-
-When I'm not working with datasets or exploring new technologies, I enjoy:
-
-- 🏋️ **Weightlifting** — discipline, consistency and continuous improvement.
-- 🏛️ **History** — understanding how the past shapes the present.
-- 🗺️ **Geography** — discovering places and understanding the world.
-- ✈️ **Travelling** — exploring different cultures and perspectives.
-
----
-
-## Let's Connect
-
-I'm always happy to connect with people working in data science, statistics, actuarial science, AI and technology.
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/alessio-tafuni-9544a4264/">
-    <img src="https://img.shields.io/badge/LinkedIn-Alessio_Tafuni-0A66C2?style=flat-square&logo=linkedin" />
-  </a>
-  <a href="https://github.com/alextaf2017">
-    <img src="https://img.shields.io/badge/GitHub-alextaf2017-181717?style=flat-square&logo=github" />
+    <img height="180" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=alextaf2017&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=6366F1&text_color=CBD5E1" />
+    <img height="180" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alextaf2017&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=CBD5E1" />
   </a>
 </p>
 
 <p align="center">
-  <sub>Building with data, learning continuously, and turning ideas into projects.</sub>
+  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=alextaf2017&theme=tokyonight&hide_border=true&background=0D1117&ring=3B82F6&fire=6366F1&currStreakLabel=3B82F6" />
+</p>
+
+<br />
+
+<!-- ========== Areas of Interest | Beyond Data ========== -->
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h2>🔎 Areas of Interest</h2>
+      <table>
+        <tr><td><b>Data Science</b></td><td>Exploratory analysis, predictive modelling</td></tr>
+        <tr><td><b>Statistics</b></td><td>Inference, regression, SEM, Bayesian methods</td></tr>
+        <tr><td><b>Insurance &amp; Finance</b></td><td>Risk analytics, claims analysis</td></tr>
+        <tr><td><b>Data Engineering</b></td><td>Lakehouse architecture, data quality</td></tr>
+        <tr><td><b>Artificial Intelligence</b></td><td>RAG, LLMs, information retrieval</td></tr>
+      </table>
+    </td>
+    <td width="50%" valign="top">
+      <h2>🌍 Beyond Data</h2>
+      <p>🏋️ <b>Weightlifting</b> — discipline, consistency and steady progress.</p>
+      <p>🏛️ <b>History and geography</b> — understanding how places and the past shape the present.</p>
+      <p>✈️ <b>Travelling</b> — discovering new places and cultures.</p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+## 🤝 Let's Connect
+
+<p align="center">
+  I'm happy to connect with people working in data science, statistics, insurance analytics and AI.
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/alessio-tafuni-9544a4264/"><img src="https://img.shields.io/badge/LinkedIn-Alessio_Tafuni-2563EB?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B1220" alt="LinkedIn" /></a>
+  <a href="https://github.com/alextaf2017"><img src="https://img.shields.io/badge/GitHub-alextaf2017-4F46E5?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1220" alt="GitHub" /></a>
+  <img src="https://img.shields.io/badge/Location-Bari,_Italy-1E293B?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0B1220" alt="Bari, Italy" />
 </p>
