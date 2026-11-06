@@ -194,10 +194,8 @@
 ## 📊 GitHub Statistics
 
 <p align="center">
-  <a href="https://github.com/alextaf2017">
-    <img height="180" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=alextaf2017&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=6366F1&text_color=CBD5E1" />
-    <img height="180" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alextaf2017&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=CBD5E1" />
-  </a>
+  <a href="https://github.com/alextaf2017?tab=repositories"><img alt="GitHub followers" src="https://img.shields.io/github/followers/alextaf2017?style=for-the-badge&logo=github&logoColor=white&label=Followers&color=2563EB&labelColor=0B1220" /></a>
+  <a href="https://github.com/alextaf2017?tab=repositories"><img alt="See all repositories" src="https://img.shields.io/badge/Repositories-See_all-4F46E5?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1220" /></a>
 </p>
 
 <p align="center">
@@ -241,4 +239,3 @@
   <a href="https://github.com/alextaf2017"><img src="https://img.shields.io/badge/GitHub-alextaf2017-4F46E5?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1220" alt="GitHub" /></a>
   <img src="https://img.shields.io/badge/Location-Bari,_Italy-1E293B?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0B1220" alt="Bari, Italy" />
 </p>
-
