@@ -140,27 +140,31 @@
     <!-- PROJECT 3 -->
     <td width="33%" valign="top">
       <h3>3 · Insurance Risk Analytics Platform</h3>
-      <p><i>Insurance data engineering and risk analytics</i></p>
-      <p>A data platform for insurance policy and claims data, built as the foundation for future risk analytics.</p>
-      <p><b>First milestone — completed</b></p>
+      <p><i>End-to-end insurance risk platform: data lake, pricing models, NLP triage, serving and business case</i></p>
+      <p>Seven milestones on public data: lakehouse, statistical and ML models, responsible-AI checks, a monitored API and an economic evaluation.</p>
+      <p><b>Completed milestones</b></p>
       <ul>
-        <li>Apache Spark and Apache Iceberg</li>
-        <li>Bronze / Silver / Gold architecture</li>
-        <li>Data quality checks and data contracts</li>
-        <li>S3-compatible storage</li>
-        <li>Deterministic train/test split</li>
+        <li>Spark + Iceberg lakehouse (Bronze / Silver / Gold), data contracts, quality checks</li>
+        <li>EDA, inference and SQL on freMTPL2 (678,013 policies, 26,639 paid claims)</li>
+        <li>Claim frequency: Poisson GLM (splines) vs gradient boosting, Optuna, Lorenz/Gini</li>
+        <li>NLP triage of NHTSA complaints: TF-IDF cascade + fine-tuned MiniLM</li>
+        <li>Risk and responsible AI: group calibration, feature outage, drift, model cards, risk register</li>
+        <li>FastAPI + Docker (multi-stage, non-root), CI tests, PSI-based monitoring</li>
+        <li>Business case: market simulation with adverse selection, NPV, scenarios</li>
       </ul>
-      <p><b>Dataset</b></p>
+      <p><b>Selected results (held-out test)</b></p>
       <ul>
-        <li>678,013 policies</li>
-        <li>26,639 claims</li>
+        <li>Frequency, Gini: boosting 0.318 vs GLM 0.290; deviance 0.4535 vs 0.4616</li>
+        <li>GLM is competitive up to about 27,000 training policies</li>
+        <li>NLP triage: recall 0.868 reviewing the top 5% of complaints</li>
+        <li>Removing Bonus-Malus: Gini 0.318 to 0.155 (feature-outage test)</li>
       </ul>
-      <p><b>Roadmap — not yet implemented</b></p>
+      <p><b>Limitations</b></p>
       <ul>
-        <li>Exploratory data analysis</li>
-        <li>Predictive modelling, GLM, frequency/severity modelling</li>
-        <li>NLP and Responsible AI</li>
-        <li>Deployment and monitoring</li>
+        <li>Public datasets only; no real portfolio or dated claims</li>
+        <li>Claims without an amount are ambiguous and change the sign of the pricing gain</li>
+        <li>Single transformer training run; no fallback model without Bonus-Malus</li>
+        <li>Business case is a simulation with stated assumptions, not a forecast</li>
       </ul>
       <p align="center">
         <a href="https://github.com/alextaf2017/insurance-risk-platform"><img src="https://img.shields.io/badge/View_Repository-1E40AF?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1220" alt="View insurance platform repository" /></a>
